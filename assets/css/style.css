@@ -1,0 +1,151 @@
+*{
+    font-family:'Gabriela';
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)), url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+nav{
+    padding: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.para-text{
+    position: absolute;
+    left: 22%;
+    top: 40%;
+}
+/* .paraSm{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+} */
+.buton{
+    border-radius: 25px;
+}
+.buton:hover{
+    border: 1px solid rgb(6, 29, 235);
+    background-color: white!important;
+    color: black;
+}
+.browseBtn{
+    border: 1px solid rgb(6, 29, 235);
+    border-radius: 25px;
+}
+@media screen and (max-width:600px){
+    .paraSm{
+        position: absolute;
+        top: 35%;
+        left: 20px;
+    }  
+}
+.top{
+    margin-top: 10%;
+}
+.contain {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .content {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .contain:hover .image {
+    opacity: 0.3;
+  }
+  
+  .contain:hover .content {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(71, 71, 245);
+    color: white;
+    font-size: 16px;
+    padding: 20px 10px;
+  }
+  /* overlay */
+  .overlay {
+    position: relative;
+    width: 50%;
+  }
+  
+  .img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay:hover .img {
+    opacity: 0.3;
+  }
+  
+  .overlay:hover .middle {
+    opacity: 1;
+  }
+  .up{
+      margin-top: 10px;
+  }
+  .curs{
+      cursor: pointer;
+  }
+  .crad{
+      padding: 40px;
+  }
+  /* label focus color */
+ .input-field input:focus + label {
+    color: blue !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid blue !important;
+    box-shadow: 0 1px 0 0 blue !important
+  }
+  .hovblue:hover{
+      color: rgb(13, 13, 233)!important;
+  }
+  .contents {
+    font-size: 25px;
+    padding: 20px 8px;
+  }
+  footer{
+      background-color: #002347!important;
+  }
+  .fa{
+      font-size: 25px!important;
+      padding: 10px;
+  }
