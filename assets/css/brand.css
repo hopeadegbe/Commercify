@@ -1,0 +1,74 @@
+*{
+    font-family:'Gabriela';
+}
+header{
+    background-image:url(../images/shop.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
+nav{
+    padding: 20px;
+}
+body{
+    background: #f5f5f5;
+}
+.bold{
+    font-weight: bold;
+}
+.para-text{
+    margin-top: 10%;
+}
+.buton{
+    border-radius: 25px;
+}
+.buton:hover{
+    border: 1px solid rgb(6, 29, 235);
+    background-color: white!important;
+    color: black;
+}
+@media screen and (max-width:600px){
+    .paraSm{
+        margin-top: 40%;
+    }  
+}
+.crad{
+    padding: 20px;
+}
+.hovBlue:hover{
+    color: rgb(13, 13, 233)!important;
+}
+.cursor{
+    cursor: pointer;
+}
+.top{
+    margin-top: 10%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(99, 94, 94); 
+  }
+  footer{
+    background-color: #002347!important;
+}
+.fa{
+    font-size: 25px!important;
+    padding: 10px;
+}
