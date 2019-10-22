@@ -42,7 +42,7 @@ body{
     padding: 20px;
 }
 .cardTitle{
-    padding: 4px 32px;
+    padding: 4px 12px;
 }
 .hovBlue:hover{
     color: rgb(13, 13, 233)!important;

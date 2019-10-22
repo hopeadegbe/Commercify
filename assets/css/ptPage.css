@@ -1,9 +1,13 @@
+/* body */
 *{
     font-family:'Gabriela';
 }
+/* end */
+/* nav */
 nav{
     padding: 8px 40px;
 }
+/* end */
 .bold{
     font-weight: bold;
 }
@@ -11,18 +15,43 @@ nav{
     margin-top: 10%;
 }
 .up{
-    margin-top:40px;
+    margin-top:15px;
 }
-  .crad{
-      padding: 40px;
-  }
   .hovblue:hover{
       color: rgb(13, 13, 233)!important;
   }
+  /* pagination */
+  .pagination {
+    display: inline-block;
+  }
+  .center{
+    text-align: center;
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+  }
+  .pagination a{
+    font-size: 9px;
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;}
   .line{
       border: 1px solid rgb(99, 98, 98);
       padding: 6px 30px;
   }
+      /* pagination end */
+       /* range field */
 input[type=range]::-webkit-slider-thumb {
     background-color: blue;
   }
@@ -32,7 +61,7 @@ input[type=range]::-webkit-slider-thumb {
   input[type=range]::-ms-thumb {
     background-color: blue;
   }
-
+     /* range field end */
   /***** These are to edit the thumb and the text inside the thumb *****/
   input[type=range] + .thumb {
     background-color: #dedede;
@@ -61,13 +90,19 @@ input[type=range]::-webkit-slider-thumb {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(99, 94, 94); 
 }
+/* footer */
   footer{
       background-color: #002347!important;
   }
+  .crad{
+    padding: 40px;
+}
   .fa{
       font-size: 25px!important;
       padding: 10px;
   }
+  /* footer end */
+  /* search bar */
   nav form {
     position: relative;
     height: 100%;
@@ -223,3 +258,38 @@ input[type=range]::-webkit-slider-thumb {
       margin-right: 0px;
     }
   }  
+  /* checkbox styling */
+  [type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid blue;
+    background-color: blue;
+}
+.new{
+  border: 2px solid gray;
+  background: gray;
+}
+.textsize{
+  font-size: 14px;
+  font-weight: 100;
+}
+.off{
+  border: 2px solid blue;
+  color: blue;
+  padding: 3px 10px;
+}
+.buyBtn{
+  display: block;
+}
+.cursor{
+   cursor: pointer;
+}
+.hoverBorder{
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.hoverBorder:hover{
+  border: 2px solid gray;
+  -webkit-transition: 2s; /* Safari */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition-timing-function: linear;
+  transition: 2s;
+}
